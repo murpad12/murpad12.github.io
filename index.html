@@ -2,7 +2,20 @@
 <title> Murali Padmanaban GitHub Main Page </title>
 <body>
   <br><br>
-  <h1> This is my GitHub page. </h1>
-  <p style="color:blue"><strong> This page is being updated. More content will be added shortly. </strong></p>
-</body>
+  <h1> This is my GitHub page - ghpages. </h1>
+  <p><code><strong> This page is being updated. </code></strong></p>
+
+  svg(viewBox="0 0 600 300")
+  // Symbol
+  symbol#s-text
+    text(text-anchor="middle", x="50%", y="50%", dy=".35em")
+      | More content will be added shortly.
+  // Duplicate symbols
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  
+  </body>
 </html>
