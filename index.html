@@ -1,26 +1,85 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title> Murali Padmanaban GitHub Main Page </title>
-    <link rel="stylesheet" href="app.css">
-  </head>    
-  <body>
-    <svg viewBox="0 0 600 300">
-      <!-- Symbol-->
-      <symbol id="s-text">
-        <text text-anchor="middle" x="25%" y="25%" dy=".35em">
-          This page is being updated. 
-          More content will be added shortly.
-          This one is updated in my git local repo.
-        </text>
-      </symbol>
-      <!-- Duplicate symbols-->
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-    </svg>
+<head>
+  <link rel="stylesheet" href="_variables.css">
+</head>
 
-  </body>
+<h1 class="display-1">Welcome to Murali's Blog Page</h1>
+
+<nav class="nav">
+  <a class="nav-link active" aria-current="page" href="#">About Me</a>
+  <a class="nav-link" href="#">My Interests</a>
+  <a class="nav-link" href="Home.html">Home</a>
+  <a class="nav-link" href="#">Contact</a>
+</nav>
+
+<h2>Blogs about my profession</h2>
+
+<div id="list-example" class="list-group">
+  <a class="list-group-item list-group-item-action" href="#list-post-1">Post 1</a>
+  <a class="list-group-item list-group-item-action" href="#list-post-2">Post 2</a>
+  <a class="list-group-item list-group-item-action" href="#list-post-3">Post 3</a>
+  <a class="list-group-item list-group-item-action" href="#list-post-4">Post 4</a>
+</div>
+<br>
+
+<div data-bs-spy="scroll" data-bs-target="#list-posts" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <h4 id="list-post-1">Post 1</h4>
+  <p>25-Nov-2021 <br>
+  This is my first blog post on github pages.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.</p>
+  <h4 id="list-post-2">Post 2</h4>
+  <p>xx-xxx-2021 <br>
+  This is my first blog post on github pages.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.</p>
+  <h4 id="list-post-3">Post 3</h4>
+  <p>xx-xxx-2021 <br>
+  This is my first blog post on github pages.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.</p>
+  <h4 id="list-post-4">Post 4</h4>
+  <p>xx-xxx-2021 <br>
+  This is my first blog post on github pages.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.
+  <br><br><br><br>
+  More content will be added shortly.</p>
+</div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
 </html>
